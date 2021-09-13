@@ -18,27 +18,32 @@ h1 {
     background-color: cyan;
     color: #3A3B3C;
     font-size: 40px;
-    width: 180px;
+    width: 25%;
     height: 50px;
     display: flex;
     justify-content: flex-end;
     padding-right: 8px;
 }
+
+
 .navBar ul{
-    margin-right: 50px;
     list-style-type: none;
+    display: flex;
+    margin: 50px;
+    
 }
-.navBar ul li{
-    display: inline-block;   
+.navBar ul li{ 
     padding: 15px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 20px;
+    
 }
 .navBar ul li a {
     color: cyan;
     text-decoration: none;
     border-bottom: cyan solid 3px;
     padding: 7px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    
 }
  
 figure{
@@ -62,43 +67,81 @@ figure h2{
     margin-right: 150px;
 }
 
-.container1{
+.container1 {
     display: flex;
-    flex-direction: row;
-    height: 210px;
-    justify-content: flex-start;
-
+    height: 150px;
+    margin-top: 2rem;
 }
-.myInfo{
+
+.individualRow {
     display: flex;
+    justify-content: flex-end;
     border-right:#282e80 solid 3px;
-    width: 200px;
+    width: 17%;
+}
+.sidebar {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 35px;
-    float: right;
-    color: #282e80;
-    padding-right: 4px;
-    justify-content: flex-end;
-}
-
-.personalImage{
-    display: flex;
-    height: 145px;
-    padding-left: 30px;
-    padding-top: 30px;
-
+    color: #282e80; 
+    padding-right: 1rem; 
+    margin-top: .5rem; 
 }
 
 .myInfoDescription{
     display: flex;
-    flex-direction: column;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #282e80;
-    padding-left: 15px;
-    padding-top: 12px;
-    width: 900px;
+    width: 75%;
+}
+.personalImage{
+    height: 145px;
+    padding-left: 30px;
+    margin-right: 20px;
 }
 
 .myInfoDescription p {
+    margin: .25rem;
     line-height: 1.25;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #282e80;
+}
+
+.container2 {
+    display: flex;
+    height: 400px;
+    margin-top: 2rem;
+}
+
+.workProjects {
+        display: flex;
+        width: 75%;
+}
+.container3 {
+    display: flex;
+    height: 100px;
+    margin-top: 2rem;
+}
+
+.contactInfo{
+    display: flex;
+    width: 75%;
+}
+
+.contactInfo ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactInfo ul li{
+    margin: 40px;
+    color: #282e80;
+    border-bottom: #282e80 solid 3px;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.contactInfo ul li a{
+    text-decoration: none;
+    color: inherit;
 }
