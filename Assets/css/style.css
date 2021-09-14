@@ -157,7 +157,7 @@ h1 {
     padding-top: 7px;
     padding-left: 8px;
     height: 70px;
-    width: 12%;
+    width: 15%;
     line-height: 1.5;
     text-align: center;
     
@@ -173,11 +173,12 @@ h4 {
     position: relative;
 }
 
-.workImages img {
+
+.workImages img{
     height: 150px;
     width: 100%;
     margin: 20px;
-    border: cyan 6px solid;
+    border: cyan solid 6px;
 }
 
 .container3 {
@@ -212,3 +213,11 @@ h4 {
     text-decoration: none;
     color: inherit;
 }
+
+
+/* @media screen and (max-width: 992px) { */
+    /* section { */
+      /* width: 75%; */
+      /* flex: 0 0 50%; */
+    /* } */
+/* } */
