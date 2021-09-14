@@ -148,29 +148,37 @@ h1 {
     
 }
 
-.textBlock{
-    position: absolute;
-    bottom: 60px;
-    left: 20px;
-    background-color: cyan;
-    color: #282e80;
-    padding-top: 7px;
-    padding-left: 8px;
-    height: 70px;
-    width: 15%;
-    line-height: 1.5;
-    text-align: center;
-    
-}
 
 h4 {
     font-size: 150%;
+    background-color: cyan;
+    padding: 5px;
+}
+
+.caption p {
+    font-size: 100%;
+    background-color: cyan;
+    padding: 5px;
 }
 
 .column {
     flex: 50%;
     padding: 0 4px;
+    
+}
+
+.led, .puzzle, .calculator, .run, .horiseonImage{
     position: relative;
+    text-align: left;
+    color: #282e80;
+}
+
+
+
+.caption{
+    position: absolute;
+    bottom: 50px;
+    left: 24px;
 }
 
 
