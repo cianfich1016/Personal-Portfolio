@@ -22,6 +22,7 @@ h1 {
     height: 50px;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     padding-right: 8px;
 }
 
@@ -46,7 +47,7 @@ h1 {
     
 }
  
-figure{
+.subtitle{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -56,15 +57,19 @@ figure{
     margin: 0px;
 }
 
-figure h2{
+.subtitle h2{
     display: flex;
+    text-align: center;
+    align-items: center;
     background-color: cyan;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #3A3B3C; 
-    font-size: 40px;
-    height: 60px;
-    width: 200px;
+    font-size: 15px;
+    height: 70px;
+    width: 25%;
     margin-right: 150px;
+    margin-bottom: 30px;
+    padding: 2px;
 }
 
 .container1 {
@@ -73,11 +78,12 @@ figure h2{
     margin-top: 2rem;
 }
 
+
 .individualRow {
     display: flex;
     justify-content: flex-end;
     border-right:#282e80 solid 3px;
-    width: 17%;
+    width: 20%;
 }
 .sidebar {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -93,7 +99,7 @@ figure h2{
 }
 .personalImage{
     height: 145px;
-    padding-left: 30px;
+    margin-left: 30px;
     margin-right: 20px;
 }
 
@@ -106,18 +112,77 @@ figure h2{
 
 .container2 {
     display: flex;
-    height: 400px;
+    height: 800px;
     margin-top: 2rem;
 }
 
 .workProjects {
-        display: flex;
-        width: 75%;
+    display: flex;
+    flex-direction: row;
+    width: 75%;
 }
+
+.workImages {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.row{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+}
+
+#Horiseon{
+    height: 375px;
+    width: 100%;
+    margin-left: 20px;
+    margin-top: .5rem;
+    
+}
+
+.textBlock{
+    position: absolute;
+    bottom: 60px;
+    left: 20px;
+    background-color: cyan;
+    color: #282e80;
+    padding-top: 7px;
+    padding-left: 8px;
+    height: 70px;
+    width: 12%;
+    line-height: 1.5;
+    text-align: center;
+    
+}
+
+h4 {
+    font-size: 150%;
+}
+
+.column {
+    flex: 50%;
+    padding: 0 4px;
+    position: relative;
+}
+
+.workImages img {
+    height: 150px;
+    width: 100%;
+    margin: 20px;
+    border: cyan 6px solid;
+}
+
 .container3 {
     display: flex;
-    height: 100px;
+    height: 140px;
     margin-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .contactInfo{
@@ -136,9 +201,9 @@ figure h2{
     margin: 40px;
     color: #282e80;
     border-bottom: #282e80 solid 3px;
-    padding: 20px;
+    padding: 15px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .contactInfo ul li a{
