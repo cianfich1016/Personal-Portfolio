@@ -259,7 +259,7 @@ h4 {
 
 @media screen and (max-width: 768px) {  
     .contactInfo ul { 
-        flex-direction: column;
+        flex-direction: row;
         flex-wrap: wrap;
         } 
     }
