@@ -25,8 +25,7 @@ h1 {
     align-items: center;
     padding-right: 8px;
 }
-
-
+/*Navigation bar created in a horizontal format using the flex property while setting the list-style-type value to none.*/
 .navBar ul{
     list-style-type: none;
     display: flex;
@@ -148,7 +147,7 @@ h1 {
     
 }
 
-
+/*Allow project images to have text block captions. (Lines 151-181)*/
 h4 {
     font-size: 150%;
     background-color: cyan;
@@ -166,15 +165,15 @@ h4 {
     padding: 0 4px;
     
 }
-
-.led, .puzzle, .calculator, .run, .horiseonImage{
+/*Each caption text box marked by same class to place text box in same spot on each image.*/
+.entireImage{
     position: relative;
     text-align: left;
     color: #282e80;
 }
 
 
-
+/*Text on each text box identified by same class for exact positioning.*/
 .caption{
     position: absolute;
     bottom: 50px;
@@ -209,12 +208,12 @@ h4 {
 }
 
 .contactInfo ul li{
-    margin: 40px;
+    margin: 35px;
     color: #282e80;
     border-bottom: #282e80 solid 3px;
-    padding: 15px;
+    padding: 12px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .contactInfo ul li a{
@@ -222,10 +221,59 @@ h4 {
     color: inherit;
 }
 
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+   
+}
+/*Allow webpage content to adjust to various screen sizes. (Lines 230-279)*/
+@media screen and (max-width: 992px) {  
+    body { 
+        width: 100%;
+     } 
+    }
 
-/* @media screen and (max-width: 992px) { */
-    /* section { */
-      /* width: 75%; */
-      /* flex: 0 0 50%; */
-    /* } */
-/* } */
+@media screen and (max-width: 768px) {  
+    body { 
+        width: 100%;
+        } 
+    }
+@media screen and (max-width: 992px) {  
+    .myInfoDescription p { 
+        line-height: 1;
+        } 
+    }
+
+@media screen and (max-width: 768px) {  
+    .myInfoDescription p { 
+        font-size: 88%;
+        } 
+    }
+
+@media screen and (max-width: 992px) {  
+    .contactInfo ul li{ 
+        padding: 4px;
+        margin: 25px;
+        } 
+    }
+
+@media screen and (max-width: 768px) {  
+    .contactInfo ul { 
+        flex-direction: column;
+        flex-wrap: wrap;
+        } 
+    }
+
+@media screen and (max-width: 768px) {  
+    .contactInfo ul li { 
+        padding: 8px;
+        margin: 8.60px;
+        text-align: center;
+        } 
+    }
+
+@media screen and (max-width: 768px) {  
+    .subtitle h2{ 
+       font-size: 80%;
+        }
+    }
