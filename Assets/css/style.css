@@ -235,54 +235,92 @@ h4 {
     flex-direction: column;
    
 }
-/*Allow webpage content to adjust to various screen sizes. (Lines 230-279)*/
-@media screen and (max-width: 992px) {  
-    body { 
-        width: 100%;
-     } 
-    }
 
-@media screen and (max-width: 768px) {  
-    body { 
-        width: 100%;
-        } 
+@media screen and (max-width: 1111px) {  
+    .navBar ul li a {
+        font-size: 20px;
     }
-@media screen and (max-width: 992px) {  
-    .myInfoDescription p { 
-        line-height: 1;
-        } 
+    .navBar ul li{
+        padding: 5px;
     }
-
-@media screen and (max-width: 768px) {  
-    .myInfoDescription p { 
-        font-size: 88%;
-        } 
+    h1{
+        font-size: 30px;
     }
-
-@media screen and (max-width: 992px) {  
-    .contactInfo ul li{ 
-        padding: 4px;
-        margin: 25px;
-        } 
+    p {
+        font-size: 16px;
     }
-
-@media screen and (max-width: 768px) {  
+    #work {
+        margin-top: 110px;
+    }
+    .sidebar{
+        font-size: 150%;
+    }
+    .subtitle h2{
+        height: 100px;
+    }
     .contactInfo ul { 
         flex-direction: row;
         flex-wrap: wrap;
-        } 
-    }
-
-@media screen and (max-width: 768px) {  
+    } 
     .contactInfo ul li { 
         padding: 8px;
         margin: 8.60px;
         text-align: center;
         } 
-    }
-
+}
 @media screen and (max-width: 768px) {  
-    .subtitle h2{ 
-       font-size: 80%;
-        }
+    .navBar ul li a {
+        font-size: 13px;
     }
+    .navBar ul li{
+        padding: 5px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    p {
+        font-size: 13.5px;
+    }
+    #work {
+        margin-top: 170px;
+    }
+    .sidebar{
+        font-size: 150%;
+    }
+    .subtitle h2{
+        height: 100px;
+    }
+    .contactInfo ul { 
+        flex-direction: row;
+        flex-wrap: wrap;
+    } 
+    .contactInfo ul li { 
+        padding: 8px;
+        margin: 8.60px;
+        text-align: center;
+        } 
+}
+@media screen and (max-width: 540px) {
+    .navBar ul li a {
+        font-size: 12px;
+    }
+    .navBar ul li{
+        padding: 5px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    p {
+        font-size: 13px;
+    }
+    #work {
+        margin-top: 230px;
+    }
+    .sidebar{
+        font-size: 150%;
+    }
+    .subtitle h2{
+        height: 80px;
+        font-size: 75%;
+    }
+}
