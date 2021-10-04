@@ -139,7 +139,7 @@ h1 {
     position: relative;
 }
 
-#Horiseon{
+#music{
     height: 375px;
     width: 100%;
     margin-left: 20px;
@@ -154,10 +154,16 @@ h4 {
     padding: 5px;
 }
 
-.caption p {
+.caption a, .caption p {
     font-size: 100%;
     background-color: cyan;
     padding: 5px;
+    margin: 0px;
+}
+
+.links{
+    margin: 0px;
+    
 }
 
 .column {
