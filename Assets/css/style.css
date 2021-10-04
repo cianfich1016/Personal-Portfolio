@@ -146,7 +146,6 @@ h1 {
     margin-top: .5rem;
     
 }
-
 /*Allow project images to have text block captions. (Lines 151-181)*/
 h4 {
     font-size: 150%;
@@ -176,6 +175,10 @@ h4 {
     position: relative;
     text-align: left;
     color: #282e80;
+}
+
+.entireImage img{
+    filter: opacity(60%);
 }
 
 
