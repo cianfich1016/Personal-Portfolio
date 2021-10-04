@@ -19,3 +19,5 @@ https://cianfich1016.github.io/Personal-Portfolio/
 Library can be found at:
 
 https://github.com/cianfich1016/Personal-Portfolio
+
+This project is licensed under the terms of the MIT license.
