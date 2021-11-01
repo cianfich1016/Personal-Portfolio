@@ -151,6 +151,7 @@ h4 {
     font-size: 150%;
     background-color: cyan;
     padding: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .caption a, .caption p {
@@ -158,6 +159,7 @@ h4 {
     background-color: cyan;
     padding: 5px;
     margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .links{
